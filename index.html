@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexandra Ioniță - Automatizări AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,300;6..96,400;6..96,500;6..96,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <section class="hero">
+    <h1 class="scroll-appear hero-title">Alexandra Ioniță</h1>
+    <p class="scroll-appear hero-subtitle">- Automatizări AI -</p>
+    <p class="scroll-appear hero-tagline">Automatizează-ți brandul fără să pari un robot.</p>
+  </section>
+
+  <section class="quick-nav">
+    <div class="quick-grid">
+      <a href="#strategySection" class="quick-card">
+        <i class="fa-solid fa-robot"></i>
+        <span>PLANUL</span>
+      </a>
+      <a href="#howItLooksSection" class="quick-card">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <span>CUM ARATĂ</span>
+      </a>
+      <a href="#pricingSection" class="quick-card">
+        <i class="fa-solid fa-tag"></i>
+        <span>TARIFE</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="strategy" id="strategySection">
+    <h2 class="scroll-appear section-title">STRATEGIA DE AUTOMATIZARE</h2>
+    <div id="strategyStage">
+      <div id="strategyChat"></div>
+      <p class="tap-hint">Apasă pe card pentru a vedea etapele</p>
+    </div>
+  </section>
+
+  <section class="how-it-looks" id="howItLooksSection">
+    <div class="scroll-appear flow-description">
+      AI-ul îți creează conținutul, îl postează pentru tine și face follow-up cu clienții.
+    </div>
+
+    <div class="visual-demo-container">
+      <div class="demo-box scroll-appear">
+        <div class="ig-mockup" id="igMockup">
+          <div class="ig-header">
+            <div class="ig-avatar"><div class="ig-avatar-inner"></div></div>
+            <span class="ig-username">brandul.tau.ai</span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div class="ig-image">VIZUAL GENERAT DE AI</div>
+          <div class="ig-actions">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-comment"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+          </div>
+          <div class="ig-caption">
+            <strong>brandul.tau.ai</strong> <span id="typeCaption"></span><span class="cursor">|</span>
+          </div>
+        </div>
+        <div class="demo-label">
+          <strong>Conectează-ți brandul și preferințele</strong>
+          <p>AI-ul generează conținutul tău săptămânal</p>
+        </div>
+      </div>
+
+      <div class="demo-box scroll-appear">
+        <div class="calendar-mockup" id="calendarSection">
+          <div class="cal-header"><i class="fa-solid fa-calendar-week"></i> <span>CALENDAR AUTOMATIZAT</span></div>
+          <div class="cal-grid" id="calGrid"></div>
+        </div>
+        <div class="demo-label">
+          <strong>Postările sunt publicate automat</strong>
+        </div>
+      </div>
+
+      <div class="demo-box scroll-appear">
+        <div class="iphone-notification" id="reminderSection">
+          <div class="notif-header">
+            <div class="notif-app-icon"><i class="fa-solid fa-bell"></i></div>
+            <span class="notif-app-name">MEMENTO</span>
+          </div>
+          <div class="notif-body">
+            <strong>Follow-up Client</strong>
+            <p>Maria nu a mai programat de 30 de zile. Se trimite mesaj automat... ✉️</p>
+          </div>
+          <div class="notif-status"><i class="fa-solid fa-check-circle"></i> Trimis cu succes</div>
+        </div>
+        <div class="demo-label">
+          <strong>Clienții primesc follow-up și memento-uri</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="growth" id="growthSection">
+    <h2 class="scroll-appear section-title">SCALABILITATE ȘI IMPACT</h2>
+    <div class="growth-grid">
+      <div class="metric-card scroll-appear">
+        <div class="metric-number" data-target="120">0</div><span class="metric-unit">%</span>
+        <p class="metric-label">Consistență în postare</p>
+        <div class="progress-bar"><div class="progress-fill" data-width="95%"></div></div>
+      </div>
+      <div class="metric-card scroll-appear">
+        <div class="metric-number" data-target="3">0</div><span class="metric-unit">x</span>
+        <p class="metric-label">Mai multe Booking-uri</p>
+        <div class="progress-bar"><div class="progress-fill" data-width="85%"></div></div>
+      </div>
+      <div class="metric-card scroll-appear">
+        <div class="metric-number" data-target="25">0</div><span class="metric-unit">%</span>
+        <p class="metric-label">Creștere în venituri</p>
+        <div class="progress-bar"><div class="progress-fill" data-width="75%"></div></div>
+      </div>
+    </div>
+
+    <div class="graph-container scroll-appear">
+      <svg viewBox="0 0 500 150" class="growth-graph">
+        <path id="graphLine" d="M0,140 L50,135 L100,140 L150,110 L200,115 L250,85 L300,95 L350,55 L400,65 L450,25 L500,35" fill="none" stroke="var(--gold-accent)" stroke-width="3" />
+      </svg>
+      <div class="graph-label">TRAIECTORIA BRANDULUI TĂU CU AI</div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricingSection">
+    <h2 class="scroll-appear section-title">ALEGE PLANUL TĂU</h2>
+    <div class="pricing-grid">
+      <div class="price-card scroll-appear">
+        <h3>STARTER</h3>
+        <div class="price">149€ <span>/ lună</span></div>
+        <p class="price-desc">Perfect pentru consistență</p>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Postări programate</li>
+          <li><i class="fa-solid fa-check"></i> Descrieri generate AI</li>
+          <li><i class="fa-solid fa-check"></i> Sistem automat de content</li>
+        </ul>
+        <div class="price-saving">Economisești 8h / săptămână</div>
+        <a href="https://wa.me/40741804562?text=Bună%20Alexandra!%20Vreau%20planul%20STARTER." class="cta-button plan-btn">ÎNCEPE ACUM</a>
+      </div>
+
+      <div class="price-card scroll-appear featured">
+        <div class="popular-tag">MOST POPULAR</div>
+        <h3>GROWTH</h3>
+        <div class="price">199€ <span>/ lună</span></div>
+        <p class="price-desc">Crește engagement-ul automat</p>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Tot din Starter</li>
+          <li><i class="fa-solid fa-check"></i> Comentarii automate</li>
+          <li><i class="fa-solid fa-check"></i> Interacțiune constantă</li>
+        </ul>
+        <div class="price-saving">+40% mai mult engagement</div>
+        <a href="https://wa.me/40741804562?text=Bună%20Alexandra!%20Vreau%20planul%20GROWTH." class="cta-button plan-btn gold">ÎNCEPE ACUM</a>
+      </div>
+
+      <div class="price-card scroll-appear">
+        <h3>PRO</h3>
+        <div class="price">279€ <span>/ lună</span></div>
+        <p class="price-desc">Automatizare completă</p>
+        <ul class="price-features">
+          <li><i class="fa-solid fa-check"></i> Tot din Growth</li>
+          <li><i class="fa-solid fa-check"></i> DM-uri automatizate</li>
+          <li><i class="fa-solid fa-check"></i> Conversii fără efort</li>
+        </ul>
+        <div class="price-saving">2-3x mai mulți clienți</div>
+        <a href="https://wa.me/40741804562?text=Bună%20Alexandra!%20Vreau%20planul%20PRO." class="cta-button plan-btn">ÎNCEPE ACUM</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
